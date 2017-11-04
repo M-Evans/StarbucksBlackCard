@@ -110,7 +110,7 @@ FAQ
 * **Q**: Can cards still get a reward after being used to redeem a reward on a separate account?<br>
 **A**: Yes. I've tested this.
 
-* **Q**: Are you sure Starbucks will allow you to create multiple accounts tied to the same email address, differing only by a single period?
+* **Q**: Are you sure Starbucks will allow you to create multiple accounts tied to the same email address, differing only by a single period?<br>
 **A**: Yes, I've tested this.
 
 * **Q**: Why use $5 to buy the initial card?<br>
