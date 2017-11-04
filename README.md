@@ -28,7 +28,7 @@ But that's a lot of work....
 Let's break this down.
 
 
-### Email Addresses
+#### Email Addresses
 
 First, we'll tackle the email addresses for each of these accounts.
 It is possible to create 365 of them,
@@ -42,7 +42,7 @@ So: we can easily fake 365 unique email addresses with a single address.
 
 What about those cards?
 
-### Gift Cards
+#### Gift Cards
 
 As it turns out, with just $5, you can get as many gift cards as you'd like!
 An inductive proof:
@@ -64,7 +64,7 @@ we notice that we only *really* need a card on the account for the 30 days prior
 In theory, with only 31 cards, you could keep the birthdays going for the whole year,
 only putting a card on an account long enough in advance so that the birthday reward isn't missed.
 
-### Putting That All Together
+#### Putting That All Together
 
 Let's take a step back and look at the big picture.
 We have a way of tricking Starbucks into creating accounts for us using only a single email address.
