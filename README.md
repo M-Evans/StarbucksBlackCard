@@ -5,16 +5,14 @@ The goal is to get an easily scalable number of daily rewards from Starbucks.
 It's a proof of concept for a potential abuse vulnerability in the birthday reward system.
 
 
-Disclaimer
----
+## Disclaimer
 
 I have never used this system, nor should anyone else.
 This project is purely for demonstration of a proof of concept.
 Actually performing this attack could be considered fraud, carrying heavy penalties.
 
 
-Description
----
+## Description
 
 As stated previously, this system involves Starbucks' birthday reward system.
 Here are some mechanics of this system:
@@ -29,16 +27,22 @@ So naturally, if we want to get 1 free item every day, we just need to set up 36
 But that's a lot of work....
 Let's break this down.
 
+
+### Email Addresses
+
 First, we'll tackle the email addresses for each of these accounts.
 It is possible to create 365 of them,
 but maintainance of all those accounts would serve to double our work.
-We could host our own email server and setup custom aliases, but that takes a while to setup.
+We could host our own email server and setup custom aliases, but that takes a lot of effort to setup.
 Instead, we'll take advantage of the fact that Gmail ignores periods in email address names.
 
 This means we can easily create an exponential number of seemingly-different email accounts using just one account.
 Starbucks doesn't account for periods when signing up for an account.
 So: we can easily fake 365 unique email addresses with a single address.
+
 What about those cards?
+
+### Gift Cards
 
 As it turns out, with just $5, you can get as many gift cards as you'd like!
 An inductive proof:
@@ -60,7 +64,8 @@ we notice that we only *really* need a card on the account for the 30 days prior
 In theory, with only 31 cards, you could keep the birthdays going for the whole year,
 only putting a card on an account long enough in advance so that the birthday reward isn't missed.
 
-Alright.
+### Putting That All Together
+
 Let's take a step back and look at the big picture.
 We have a way of tricking Starbucks into creating accounts for us using only a single email address.
 We also have a way of getting an unlimited number of starbucks gift cards to use with each account.
@@ -74,8 +79,7 @@ This leaves two things that need to be done:
 That's where this project comes in.
 
 
-What's Included With This Project?
----
+## What's Included With This Project?
 
 The script `createAccounts.sh` is used to create the initial 365 accounts that cards will be switched between.
 
@@ -91,8 +95,7 @@ With a bit of configuration, you can get it to work on your system too!
 Although you shouldn't.
 
 
-Todo
----
+## Todo
 
 * Re-write the automation portion in Selenium
 * Re-work switching interface to allow for multiple cards to be switched around
@@ -101,8 +104,7 @@ Todo
 If I'm being completely honest, though, none of this will get done.
 
 
-FAQ
----
+## FAQ
 
 * **Q**: Can a card with zero balance be used to redeem birthday rewards?<br>
 **A**: Yes. I've tested this.
